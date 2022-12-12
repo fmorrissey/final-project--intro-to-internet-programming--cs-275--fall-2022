@@ -1,0 +1,123 @@
+header  
+{
+  text-align: right;
+  background-color:green;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right:10px;
+  font-family: 'Open Sans';
+}
+
+header a
+{
+  color:black;
+  text-decoration: none;
+}
+
+ul 
+{
+  list-style: none;
+}
+
+ul li 
+{
+  margin-left: -40px;
+}
+
+nav {
+  position: absolute;
+  top: 82px;
+  width: 300px;
+  height: 48px;
+  text-align: center;
+  margin-left: 450px;
+}
+
+nav a 
+{
+  display: block;
+  width: 150px;
+  line-height: 48px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background-color: green;
+}
+
+nav > ul 
+{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav > ul > li 
+{
+  width: 150px;
+  background-color: green;
+}
+
+nav > ul > li > ul 
+{
+  position: absolute;
+  visibility: hidden;
+  background-color: pink;
+}
+
+nav > u1 > li:hover > u1
+{
+  visibility: visible;
+}
+
+nav > ul > li > ul a 
+{
+  height: 48px;
+  line-height: 48px;
+}
+
+.hide 
+{
+  display: none;
+}
+
+.hidden 
+{
+  display: none;
+}
+
+.modal-panel {
+  background-color: rgba(2, 2, 2, .10);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.modal-content-pane {
+  background-color: white;
+  width: 70%;
+  height: 80%;
+  left: 35%;
+  top: 25%;
+  position:fixed;
+}
+
+@media (max-width: 736px) 
+{
+  nav 
+  {
+    margin-left: auto;
+  }
+
+  nav ul 
+  {
+    left: 150px;
+    top: 16px;
+    display:block;
+  }
+}
+
+  
+
