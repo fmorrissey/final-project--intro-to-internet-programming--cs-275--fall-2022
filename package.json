@@ -1,6 +1,6 @@
 {
     "name": "assignment-4--intro-to-internet-programming--cs-275--fall-2022",
-    "version": "1.0.0",
+    "version": ".0.0",
     "description": "",
     "main": "gulpfile.js",
     "scripts": {
@@ -23,7 +23,7 @@
       "@babel/core": "7.19.3"
     },
     "devDependencies": {
-      "gulp": "^4.0.2",
+      "gulp": "^3.9.1",
       "gulp-html": "5.0.0",
       "gulp-htmlmin": "5.0.1",
       "browser-sync": "2.27.10",
