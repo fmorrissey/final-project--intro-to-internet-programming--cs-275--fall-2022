@@ -3,7 +3,7 @@ window.onload = () =>
     let menuShow = document.getElementById('main-menu');
     let modal = document.getElementById('modal-menu');
     let hiddenMenu = document.querySelectorAll('nav');
-    let hiddenModal = Document.querySelector('div');
+    let hiddenModal = document.querySelector('div');
    
 menuShow.addEventListner('click, () =>
 {
