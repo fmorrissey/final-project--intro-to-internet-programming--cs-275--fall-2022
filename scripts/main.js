@@ -1,9 +1,9 @@
 window.onload = () => 
 {
     let menuShow = document.getElementById('main-menu');
-    let hiddenMenu = document.querySelector('nav');
-    let modal = document.getElementById("modal-menu');
-    let hiddenModal = Document>queryselector('div');
+    let modal = document.getElementById('modal-menu');
+    let hiddenMenu = document.querySelectorAll('nav');
+    let hiddenModal = Document.querySelector('div');
    
 menuShow.addEventListner('click, () =>
 {
